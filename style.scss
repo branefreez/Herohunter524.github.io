@@ -19,10 +19,6 @@ html {
 
 body {
 	background: #4280f4;
-	background: -webkit-radial-gradient(60% 55%, closest-side, red, yellow, black);
-	background: -o-radial-gradient(circle, red, yellow, green);
-	background: -moz-radial-gradient(circle, red, yellow, green);
-	background: radial-gradient(circle, red, yellow, green);
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
