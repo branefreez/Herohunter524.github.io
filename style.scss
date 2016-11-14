@@ -14,13 +14,18 @@
 /**************/
 
 html {
-  font-size: 197%;
+  font-size: 100%;
 }
 
 body {
-	background:#e8dfde
-        	font : $Verdana
-		fonscale : 1.9
+  background-image: url("http://www.wallpaperscharlie.com/wp-content/uploads/2016/07/Shattered-Screen-Desktop-Wallpapers-2.jpg");
+ // background-image: url("http://www.wallpaperscharlie.com/wp-content/uploads/2016/07/Shattered-Screen-Desktop-Wallpapers-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  font: 18px/1.4 $helvetica;
+  color: #ffffff;
+ 
 }
 
 .container {
@@ -28,16 +33,21 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  background:rgba(35, 50, 55,0.9);
+	border-radius: 25px;
+    padding: 20px; 
+	border-bottom: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helvetica;
-  color: $red;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #eac67a;
   font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
+
 
   @include mobile {
     line-height: 1.4;
